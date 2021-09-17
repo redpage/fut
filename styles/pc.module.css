@@ -1,0 +1,100 @@
+.wrap {
+    width:100%;
+    height:100%;
+    cursor:default;
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
+}
+
+.on {
+    border:1px solid #114499;
+}
+
+.top {
+    height:40px;
+    background-color: gold;
+}
+
+.hogabox {position:relative; width:780px; padding:30px 0; font-size:14px; margin-bottom:20px; border:1px solid #c0c8d7; border-radius:5px; overflow:hidden}
+.hogabox .top { position:absolute; top:0; left:0; width:calc(100% - 12px); height:30px}
+.hogabox .top li {height:30px; text-align:center; line-height:30px;}
+.hogabox .bdy {height:400px; overflow-y:scroll}
+.hogabox .bdy ul > li:first-child, .hogabox ul > li.cell {background:#053058be}
+.hogabox .bdy ul > li:last-child, .hogabox ul > li.buy {background:#550c03}
+.hogabox .bot { position:absolute; bottom:0; left:0; width:calc(100% - 12px); height:30px; overflow:hidden}
+.hogabox .bot li {height:30px; text-align:center; line-height:30px}
+.hogabox li  button {width:100%; height:30px; border-top:1px solid #fff; border-left:1px solid #fff; border-right:1px solid #888; border-bottom:1px solid #888;}
+.hogabox li  button:active {padding:1px 0 0 1px; border:none; border-top:1px solid #888; border-left:1px solid #888}
+.hogabox li.sell button {color:#323438; background:#a7e1f3}
+.hogabox li.buy button {color:#323438; background:#f8d6d7}
+.hogabox li.center button {color:#323438; background:#cdf6ba}
+.hogabox li.cancel button {color:#323438; background:#e1dff5}
+.hogabox ul {height:20px;}
+.hogabox ul > li {float:left; width:calc(100% / 9); height:20px; line-height:19px; border-right:1px solid #c0c8d7; border-bottom:1px solid #c0c8d7; }
+.hogabox ul > li span { display:block; width:100%; height:20px; padding-right:5px; text-align:right}
+.hogabox ul > li span.cur {border:1px solid #F00}
+.hogabox ul > li.col2 {width:calc(100% / 9 * 2)}
+
+.hogabox ul > li button { border:none; width:100%; height:19px; padding-right:5px; text-align:right}
+
+.order {width:350px; padding:0 10px;}
+
+.info {font-size:15px; border-top:1px solid #c0c8d7; }
+.info dl {float:left; width:50%; border-bottom:1px solid #c0c8d7}
+.info dl:nth-child(odd) {border-right:1px solid #c0c8d7}
+.info dl dt {float:left; width:35%; height:30px; line-height:29px; text-align:center; border-right:1px solid #c0c8d7; background:#3f434d;}
+.info dl dd {float:left; width:65%; height:30px; line-height:29px; text-align:right}
+.info dl dd span {display:inline-block; margin-right:5px}
+
+
+.trade {height:140px; padding-top:10px}
+.trade dl {height:25px; margin-bottom:5px}
+.trade dl {clear:both}
+.trade dl dt {float:left; width:30%; padding-left:10px}
+.trade dl dd {float:left; width:70%}
+.trade dl dd input {border:1px solid #c0c8d7}
+.trade dl dd input[type=text] {width:50px; text-align:right;color:black;}
+.trade dl dd input[type=button]:not([value=편집]):not([value=저장]) {width:30px;}
+.trade dl dd .boxs input[type=text] {width:30px; text-align:center}
+
+.jantab {
+    width:780px;
+}
+
+.jantab .tabbar {
+    display:flex;
+    height:30px;
+}
+
+.jantab .tab {
+    width:150px;
+}
+
+.jantab .bdy {
+    background-color: yellowgreen;
+    height:calc(100vh - 570px); overflow-y:auto
+}
+
+.jantab .on {
+    color:#fff;
+    background-color:#133;
+}
+
+
+
+
+.tic {width:350px; padding:0 10px;}
+.tic h2 {height:33px; color:#fff; text-align:center; line-height:32px; border-bottom:1px solid #ccc; background:#3f434d}
+.tic ul{height:calc(100vh - 570px); overflow-y:auto}
+
+.tic > ul > dl {
+    display: flex;
+}
+
+.tic > ul > dl dd {
+    width:calc(100vw / 3);
+}

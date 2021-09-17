@@ -1,0 +1,17 @@
+.wrap {
+    background-color: yellow;
+    height:500px;
+}
+
+.wrap table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.wrap th {
+    background-color: gray;
+}
+.wrap td {
+    background-color: #fff;
+    padding: 2px;
+}

@@ -1,16 +1,89 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+* {margin:0; padding:0; font-family:inherit; font-size:inherit; font-weight:inherit; color:inherit; word-break:keep-all; box-sizing:border-box;} /* font '나눔스퀘어' 사용*/
+body {font-family:'Nanum Gothic', sans-serif;}
+h1, h2, h3, h4 {font-family:'Nanum Gothic'; font-weight:500; word-break:keep-all;}
+li{list-style:none;}
+a{text-decoration:none; transform:skew(-0.03deg);}
+dl{text-align:left;}
+img{border:none;}
+table {border-collapse:collapse; border-spacing:0px;}
+address{font-style:normal;}
+fieldset{border:none;}
+legend{position:absolute; left:-999em;}
+input[type=button], input[type=submit], input[type=reset], input[type=image], button{cursor:pointer;}
+input[type=password] {font-family:'Nanum Gothic', sans-serif}
+*:focus{outline:none}
+
+input[type=submit], input[type=button], button {-webkit-appearance: none; border:1px solid #616577; background:#2c2f3a}
+select{-webkit-appearance:none; padding-right:30px; background:url(../images/select.png) no-repeat right 3px center; background-size:20px}
+select option {background:#343740}
+textarea{resize:none;}
+
+.blue{font-weight:800; color:#07ace4;}
+.light{font-weight:200;}
+.oh {overflow:hidden}
+.cb {clear:both}
+.db {display:block}
+.tc {text-align:center}
+.tl {text-align:left}
+.tr {text-align:right}
+
+/* drag color - explore X*/
+::selection{background:#009cd1; color:#fff;} /* 크롬, 사파리 */
+::-moz-selection{background:#009cd1; color:#fff;} /* 파이어폭스 */
+
+
+/* placeholder color*/
+input::-webkit-input-placeholder {color:#999;}/* 크롬 4–56 */
+input:-moz-placeholder {color:#999;}/* 파이어폭스 4–18 */
+input::-moz-placeholder {color:#999;}/* 파이어폭스 19–50 */
+input:-ms-input-placeholder {color:#999;}/* 인터넷 익스플로러 10+ */
+
+.scrollbar::-webkit-scrollbar { -webkit-appearance: none;}
+.scrollbar::-webkit-scrollbar:vertical {width:12px;}
+.scrollbar::-webkit-scrollbar:horizontal {height:12px;}
+.scrollbar::-webkit-scrollbar-thumb {background-color: rgba(150,150,150, .5); border-radius: 5px; border: 2px solid #373b46;}
+.scrollbar::-webkit-scrollbar-track {border-radius:0;  background-color:transparent;}
+.scrollbar::-webkit-scrollbar-corner {background-color:transparent}
+
+.noselect {
+    cursor:default;
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently supported by Chrome, Edge, Opera and Firefox */
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+/* swal start */
+
+.x-noti.swal-modal {
+  margin-top:calc(80vh * -1);
+  background-color: rgba(18, 87, 33, 0.69);
+  border: 3px solid white;
 }
 
-* {
-  box-sizing: border-box;
+
+.x-noti .swal-text {
+  padding: 17px;
+  margin: 0px;
+  text-align: center;
+  color: #fff;  
 }
+
+.x-flexbox {
+  display:flex;
+  justify-content: center;
+}
+
+.x-up {
+  color:red;
+}
+
+.x-dn {
+  color:blue;
+}
+
+/* swal end */
+
+/* fut */

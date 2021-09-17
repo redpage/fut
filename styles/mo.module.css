@@ -1,0 +1,28 @@
+.wrap {
+  top:0; left:0; right:0; bottom:0;
+}
+
+.wrap .on {
+  display: block;
+  border:1px solid #123;
+}
+
+.view {
+  overflow-x: hidden;
+  overflow-y: auto;
+  height:calc(100vh - 60px)
+}
+
+.tabbar {
+  display:flex;
+  height:60px;
+}
+
+.tab {
+  height: 100%;
+  width:calc(100vw / 5);  
+}
+
+.tabbar .on {
+  border:1px solid #000;
+}

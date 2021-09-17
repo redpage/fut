@@ -1,0 +1,57 @@
+.wrap {
+  top:0; left:0; right:0; bottom:0;
+}
+
+.hoga {
+
+}
+
+.hoga table {
+  table-layout: fixed;
+  border-collapse: collapse;
+}
+
+.hoga th, .hoga td {
+  width:calc(100vw / 5);
+  height:35px;
+}
+
+.hoga th {
+  background-color: #114499;
+  color:#fff;
+}
+
+.hoga td {
+  text-align: right;
+  padding-right: 3px;
+  border-right: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+}
+
+.row {
+  display:flex;
+}
+
+.cell {
+  width:calc(100vw / 5);
+}
+
+.tabbar {
+  display:flex;
+}
+
+.tab {
+  width:calc(100vw / 3);
+}
+
+.tabbar > div:nth-child(1).on {
+  background-color: red;
+}
+
+.tabbar > div:nth-child(2).on {
+  background-color: blue;
+}
+
+.tabbar > div:nth-child(3).on {
+  background-color: green;
+}

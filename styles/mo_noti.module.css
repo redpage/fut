@@ -1,0 +1,29 @@
+.wrap {
+  top:0; left:0; right:0; bottom:0;
+}
+
+.noti {
+  border-bottom: 1px solid #eee;
+}
+
+.noti dt {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.noti dt > p {
+  margin-left: auto;
+}
+
+.noti .ctx {
+  background-color: antiquewhite;
+  display:none;
+}
+
+.noti .ctx.on {
+  display:block;
+  margin-bottom: 2em;
+  opacity: 1;
+  transform: translateY(0%) scale(1);
+  transition: all 1000ms ease-in-out;
+}

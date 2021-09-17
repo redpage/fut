@@ -1,0 +1,26 @@
+.wrap {
+    background-color: yellow;
+    height:500px;
+}
+
+.tab {
+    display: flex;
+}
+
+.btn {
+    text-align: center;
+    min-width: 100px;
+    border-top:1px solid #000;
+    border-right:1px solid #000;   
+}
+
+.on {
+    background-color: #ff00ef;
+    color:#fff;
+    border:1px solid #111;
+}
+
+.tabbdy {
+    height:calc(100vh - 500px);
+}
+

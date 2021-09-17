@@ -1,0 +1,41 @@
+.wrap {
+  top:0; left:0; right:0; bottom:0;
+}
+
+.gridhdr {
+  background-color: #000;
+  color:#fff;
+}
+
+.gridhdr ul {
+  display:flex;
+  list-style: none;
+  padding-left: 0;  
+}
+
+.gridhdr ul > li {
+  width: calc(100vw / 3);
+}
+
+.gridbdy {
+  height:calc(100vh - 200px);
+  overflow-y:auto;
+  padding-bottom: 60px;
+}
+
+.gridrow {
+  border-bottom: 1px solid #000;
+}
+
+.gridrow ul {
+  display:flex;
+  list-style: none;
+  padding-left: 0;    
+}
+
+.gridrow ul > li {
+  width: calc(100vw / 3);
+  border-bottom: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+}
+
